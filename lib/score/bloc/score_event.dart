@@ -6,3 +6,24 @@ class ScoreEvent extends Equatable {
   @override
   List<Object?> get props => [];
 }
+
+class IncrementScoreAEvent extends ScoreEvent {
+  const IncrementScoreAEvent();
+
+  @override
+  List<Object?> get props => [];
+}
+
+class IncrementScoreBEvent extends ScoreEvent {
+  const IncrementScoreBEvent();
+
+  @override
+  List<Object?> get props => [];
+}
+
+class ResetScoreEvent extends ScoreEvent {
+  const ResetScoreEvent();
+
+  @override
+  List<Object?> get props => [];
+}
